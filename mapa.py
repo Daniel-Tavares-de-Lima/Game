@@ -24,8 +24,11 @@ class Mapa:
         self.get_mapa()
 
     def get_mapa(self):
+        #Itera sobre cada linha da matriz
         for j,linha in enumerate(self.miniMapa):
+            #Itera sobre cada coluna da matriz
             for i, valor in enumerate(linha):
+                #Se for verdadeiro, há um obstáculo na célula
                 if valor:
                     self.mapaMundo[(i,j)] = valor
 
