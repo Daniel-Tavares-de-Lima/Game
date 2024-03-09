@@ -5,6 +5,7 @@ from config import *
 from mapa import *
 from player import *
 
+
 class Game:
     def __init__ (self):
         pg.init()
